@@ -49,6 +49,25 @@ nav ul li a {
   color: #eeeeee;
 }
 /* Main Section*/
+.container {
+  margin: 10px;
+}
+.container p {
+  font-size: 24px;
+}
+.container p img {
+  -webkit-border-radius: 10px;
+  /* Chrome,Safari4+ */
+  -moz-border-radius: 10px;
+  /* FF3.6+ */
+  -o-border-radius: 10px;
+  /* Opera 11.10+ */
+  -ms-border-radius: 10px;
+  /* IE10+ */
+  border-radius: 10px;
+  float: left;
+  margin: 10px;
+}
 /* Footer */
 footer {
   padding: 15px;
