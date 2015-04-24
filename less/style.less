@@ -94,6 +94,17 @@ header {
  background:@asbestos;
  color: @light;
 
+ 	h3 {
+		padding-bottom: @padding;
+	 	.bordered(xxx, xxx, @light, xxx);
+	}
+
+ 	div {
+ 	 	.inline {
+ 	  		#inline_list;
+ 	 	}
+ 	}
+
 	#about {
 	.column(6);
 
@@ -106,12 +117,7 @@ header {
 	 			margin: @margin;
 	 			font-style: italic;		 
 	 		}
-	 	}
-
-		.inline {
-			#inline_list;
-		}
-	
+	 	}	
 	}
 
 	#contact {
@@ -124,18 +130,10 @@ header {
 			 .list;
 			}
 		}
-
-		 .inline {
-			#inline_list;
-		}
 	} 
 	
 	#locations {
 	.column(6);
-
-		.inline {
-			#inline_list;
-		}
 	 
 	}
   .clearfix();
