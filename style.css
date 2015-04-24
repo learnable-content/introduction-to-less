@@ -3,6 +3,7 @@
  * and can have different kinds of data types: 
  *  color, string, boolean, multi-value
  */
+/* Less comment - visible on CSS file */
 .bordered {
   border-top: 4px solid #233140;
   border-bottom: 4px solid #233140;
@@ -46,7 +47,14 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #eeeeee;
+  color: #aabdd1;
+  padding: 3.75px;
+}
+nav ul li a:hover {
+  border-top: 4px solid #233140;
+  border-bottom: 4px solid #233140;
+  padding: 3.75px;
+  color: #11181f;
 }
 /* Main Section*/
 .container {
