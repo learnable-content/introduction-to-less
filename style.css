@@ -4,17 +4,17 @@
  *  color, string, boolean, multi-value
  */
 .bordered {
-  border-top: 4px solid #000000;
-  border-bottom: 4px solid #000000;
+  border-top: 4px solid #7f3d9b;
+  border-bottom: 4px solid #7f3d9b;
 }
 .commonRules {
   padding: 15px;
   margin: 0;
-  color: #eeeeee;
-  background: #333333;
+  color: #efe3f4;
+  background: #8e44ad;
   text-align: right;
-  border-top: 4px solid #000000;
-  border-bottom: 4px solid #000000;
+  border-top: 4px solid #7f3d9b;
+  border-bottom: 4px solid #7f3d9b;
 }
 body {
   margin: 0;
@@ -23,18 +23,18 @@ body {
 header h1 {
   padding: 15px;
   margin: 0;
-  color: #eeeeee;
-  background: #333333;
+  color: #efe3f4;
+  background: #8e44ad;
   text-align: right;
-  border-top: 4px solid #000000;
-  border-bottom: 4px solid #000000;
+  border-top: 4px solid #7f3d9b;
+  border-bottom: 4px solid #7f3d9b;
 }
 header h1:after {
   content: " with LESS";
 }
 /* Navigation */
 nav {
-  background: #666666;
+  background: #a563c1;
 }
 nav ul {
   margin: 0;
@@ -74,11 +74,11 @@ nav ul li a {
 footer {
   padding: 15px;
   margin: 0;
-  color: #eeeeee;
-  background: #333333;
+  color: #efe3f4;
+  background: #8e44ad;
   text-align: right;
-  border-top: 4px solid #000000;
-  border-bottom: 4px solid #000000;
+  border-top: 4px solid #7f3d9b;
+  border-bottom: 4px solid #7f3d9b;
   padding: 0 25px;
   position: absolute;
   left: 0;
