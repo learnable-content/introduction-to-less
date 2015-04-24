@@ -18,7 +18,26 @@ html, body {
 /* Header */
 
 header {
+  background: url("@{bg}skyline_ny.jpg");
+  background-size: cover;
+  height: 500px;
 
+
+	#banner {
+		color:@light;
+		padding-top: @padding+100;
+
+		h1 {
+	  	font-size: @fontSize*2.5;
+	  	padding: @padding+30;
+	  	display: inline-block;
+	  	float: right;
+	  	text-align: right;
+	  	.text-shadow;
+	  	.bordered(xxx, xxx, @light, xxx);
+
+		}
+	}  
 }
 
 /* Services section */
