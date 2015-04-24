@@ -89,20 +89,56 @@ header {
 /* Bottom section */
 
 #bottom {
-
+ #commonRules;
+ text-align: left;
+ background:@asbestos;
+ color: @light;
 
 	#about {
+	.column(6);
+
+		div {
+	 	.row(6);
+	 	padding-left: 0;
+
+	 		p {
+	 			.column(3,6);
+	 			margin: @margin;
+	 			font-style: italic;		 
+	 		}
+	 	}
+
+		.inline {
+			#inline_list;
+		}
 	
 	}
 
 	#contact {
-		 
+	.column(4);
+
+		ul  {
+			padding-left:0;
+
+			li {
+			 .list;
+			}
+		}
+
+		 .inline {
+			#inline_list;
+		}
 	} 
 	
 	#locations {
+	.column(6);
+
+		.inline {
+			#inline_list;
+		}
 	 
 	}
-	
+  .clearfix();
 }
 
 /* Footer */
