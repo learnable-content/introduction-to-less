@@ -4,17 +4,17 @@
  *  color, string, boolean, multi-value
  */
 .bordered {
-  border-top: 4px solid #7f3d9b;
-  border-bottom: 4px solid #7f3d9b;
+  border-top: 4px solid #233140;
+  border-bottom: 4px solid #233140;
 }
 .commonRules {
   padding: 15px;
   margin: 0;
-  color: #efe3f4;
-  background: #8e44ad;
+  color: #aabdd1;
+  background: #2c3e50;
   text-align: right;
-  border-top: 4px solid #7f3d9b;
-  border-bottom: 4px solid #7f3d9b;
+  border-top: 4px solid #233140;
+  border-bottom: 4px solid #233140;
 }
 body {
   margin: 0;
@@ -23,18 +23,18 @@ body {
 header h1 {
   padding: 15px;
   margin: 0;
-  color: #efe3f4;
-  background: #8e44ad;
+  color: #aabdd1;
+  background: #2c3e50;
   text-align: right;
-  border-top: 4px solid #7f3d9b;
-  border-bottom: 4px solid #7f3d9b;
+  border-top: 4px solid #233140;
+  border-bottom: 4px solid #233140;
 }
 header h1:after {
   content: " with LESS";
 }
 /* Navigation */
 nav {
-  background: #a563c1;
+  background: #3e5771;
 }
 nav ul {
   margin: 0;
@@ -74,11 +74,11 @@ nav ul li a {
 footer {
   padding: 15px;
   margin: 0;
-  color: #efe3f4;
-  background: #8e44ad;
+  color: #aabdd1;
+  background: #2c3e50;
   text-align: right;
-  border-top: 4px solid #7f3d9b;
-  border-bottom: 4px solid #7f3d9b;
+  border-top: 4px solid #233140;
+  border-bottom: 4px solid #233140;
   padding: 0 25px;
   position: absolute;
   left: 0;
