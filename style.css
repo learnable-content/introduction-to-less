@@ -14,10 +14,13 @@ body {
 header {
   background: #333333;
 }
-h1 {
+header h1 {
   color: #eeeeee;
   padding: 15px;
   margin: 0;
+}
+header h1:after {
+  content: " with LESS";
 }
 /* Navigation */
 nav {
