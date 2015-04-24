@@ -22,6 +22,38 @@ header {
   background-size: cover;
   height: 500px;
 
+  #topbar {
+  	.bar;
+
+  	h2 {
+  		.column(6);
+  		padding-top: @padding/2;
+		color: darken(@asbestos, 20%);
+
+  	}
+
+  	nav {
+  		.column(6);
+  		float: right;
+
+  		ul {
+  			.reset;
+
+  			li {
+  				display: inline-block;
+  				width: 5rem;
+  				margin: @margin;
+  				text-align: center;
+
+				a {
+					#navigation > .links();
+				}
+  			}
+  		} 			
+  	}  	
+  	.clearfix();
+  }
+
 
 	#banner {
 		color:@light;
@@ -37,7 +69,8 @@ header {
 	  	.bordered(xxx, xxx, @light, xxx);
 
 		}
-	}  
+	}
+  
 }
 
 /* Services section */

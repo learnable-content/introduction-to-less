@@ -145,6 +145,73 @@ header {
   background-size: cover;
   height: 500px;
 }
+header #topbar {
+  background: #ecf0f1;
+  padding: 10px;
+  color: #7f8c8d;
+  border-top: solid 1px xxx;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px #7f8c8d;
+  border-top: solid 4px xxx;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px #7f8c8d;
+  *zoom: 1;
+}
+header #topbar h2 {
+  display: inline;
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+  padding-top: 5px;
+  color: #4e5758;
+}
+header #topbar nav {
+  display: inline;
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+  float: right;
+}
+header #topbar nav ul {
+  margin: 0;
+  padding: 0;
+}
+header #topbar nav ul li {
+  display: inline-block;
+  width: 5rem;
+  margin: 10px;
+  text-align: center;
+}
+header #topbar nav ul li a {
+  text-decoration: none;
+  color: #7f8c8d;
+  padding-left: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+header #topbar nav ul li a:hover {
+  color: #4e5758;
+  border-top: solid 1px xxx;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px #4e5758;
+  border-top: solid 4px xxx;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px #4e5758;
+}
+header #topbar:before,
+header #topbar:after {
+  content: "";
+  display: table;
+}
+header #topbar:after {
+  clear: both;
+}
 header #banner {
   color: #ecf0f1;
   padding-top: 110px;
