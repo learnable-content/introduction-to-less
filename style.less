@@ -32,6 +32,15 @@
   border-bottom: @border;
 }
 
+.commonRules {
+	padding: @padding;
+	margin: 0;
+	color: @lightgrey;
+	background:@darkgrey;
+	text-align: right;
+	.bordered;
+}
+
 
 body {
   margin: 0;
@@ -39,12 +48,9 @@ body {
 
 /* Header */
 header {
-	background:@darkgrey;
 
 	h1 {
-		color: @lightgrey;
-		padding: @padding;
-		margin: 0;
+		.commonRules;
 
 		&:after {
 			content: @stringVar;
@@ -85,6 +91,11 @@ nav {
 /* Footer */
 
 footer {
-
+  .commonRules;
+  padding:0 @padding;
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom:0;
 }
 
