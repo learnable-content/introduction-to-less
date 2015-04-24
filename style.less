@@ -6,7 +6,7 @@
 
 
 //color variables          
-@dark: black;             								// named color value 
+@dark: black;             								// named color value value
 @lightgrey: #eee;          								// hex code color 
 @mediumgrey: #666;										// hex code color 
 @darkgrey: #333;										// hex code color 
@@ -60,6 +60,35 @@
 	border-radius: @rounded;
 }
 
+//Namespace
+
+#Link {   
+ .underline() {
+    text-decoration: none;
+    color: lighten(@template_color, 50%);
+      
+      &:hover { 
+       text-decoration: underline;
+       color: darken(@template_color, 15%);
+
+      }
+  }
+
+  .border() {
+
+    text-decoration: none;
+    color: lighten(@template_color, 50%);
+    padding: @padding/4;
+
+      &:hover { 
+       	.bordered;
+       	padding: @padding/4;
+        color: darken(@template_color, 15%);
+      }
+  }
+}
+
+
 body {
   margin: 0;
 }
@@ -91,8 +120,9 @@ nav {
 			margin: @margin @margin+20;
 
 			a {
-				text-decoration: none;
-				color: @lightgrey;
+
+				#Link > .border();
+
 			}
 		}
   }
