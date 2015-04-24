@@ -233,6 +233,67 @@ header #banner h1 {
   border-bottom: solid 4px #ecf0f1;
 }
 /* Services section */
+#work {
+  background: #ecf0f1;
+  text-align: center;
+  padding: 10px 50px;
+  border-top: solid 1px #7f8c8d;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px xxx;
+  border-top: solid 4px #7f8c8d;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px xxx;
+}
+#work .top {
+  padding-bottom: 60px;
+}
+#work .top h2 {
+  font-size: 48px;
+}
+#work .top p {
+  font-size: 24px;
+}
+#work .grid {
+  *zoom: 1;
+}
+#work .grid div {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+#work .grid div h4,
+#work .grid div h3 {
+  margin: 10px 0 0 0;
+}
+#work .grid div img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border-top: solid 1px #bdc3c7;
+  border-left: solid 1px xxx;
+  border-right: solid 1px #bdc3c7;
+  border-bottom: solid 1px #bdc3c7;
+  border-top: solid 4px #bdc3c7;
+  border-left: solid 4px xxx;
+  border-right: solid 4px #bdc3c7;
+  border-bottom: solid 4px #bdc3c7;
+}
+#work .grid div img:hover {
+  -webkit-box-shadow: -5px 5px 20px #7f8c8d;
+  -moz-box-shadow: -5px 5px 20px #7f8c8d;
+  box-shadow: -5px 5px 20px #7f8c8d;
+}
+#work .grid:before,
+#work .grid:after {
+  content: "";
+  display: table;
+}
+#work .grid:after {
+  clear: both;
+}
 /* Team section */
 /* Bottom section */
 /* Footer */
