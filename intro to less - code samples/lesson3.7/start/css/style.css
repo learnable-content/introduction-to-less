@@ -1,0 +1,585 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+.reset {
+  margin: 0;
+  padding: 0;
+}
+.bar {
+  background: #ecf0f1;
+  padding: 10px;
+  color: #7f8c8d;
+  border-top: solid 1px xxx;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px #7f8c8d;
+  border-top: solid 4px xxx;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px #7f8c8d;
+}
+#commonRules {
+  text-align: center;
+  padding: 10px 50px;
+  border-top: solid 1px #7f8c8d;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px xxx;
+  border-top: solid 4px #7f8c8d;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px xxx;
+}
+#commonRules .top {
+  padding-bottom: 60px;
+}
+#commonRules .top h2 {
+  font-size: 48px;
+}
+#commonRules .top p {
+  font-size: 24px;
+}
+#commonRules .grid {
+  *zoom: 1;
+}
+#commonRules .grid div {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+#commonRules .grid div h4,
+#commonRules .grid div h3 {
+  margin: 10px 0 0 0;
+}
+#commonRules .grid div img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border-top: solid 1px #bdc3c7;
+  border-left: solid 1px xxx;
+  border-right: solid 1px #bdc3c7;
+  border-bottom: solid 1px #bdc3c7;
+  border-top: solid 4px #bdc3c7;
+  border-left: solid 4px xxx;
+  border-right: solid 4px #bdc3c7;
+  border-bottom: solid 4px #bdc3c7;
+}
+#commonRules .grid div img:hover {
+  -webkit-box-shadow: -5px 5px 20px #7f8c8d;
+  -moz-box-shadow: -5px 5px 20px #7f8c8d;
+  box-shadow: -5px 5px 20px #7f8c8d;
+}
+#commonRules .grid:before,
+#commonRules .grid:after {
+  content: "";
+  display: table;
+}
+#commonRules .grid:after {
+  clear: both;
+}
+.list {
+  margin: 10px 20px;
+  list-style-type: none;
+  margin-left: 0;
+}
+#inline_list {
+  font-size: 15px;
+  font-weight: 900;
+  padding-left: 0;
+}
+#inline_list li {
+  display: inline-block;
+  margin-top: 10px;
+}
+#inline_list li a {
+  text-decoration: none;
+  color: #7f8c8d;
+  padding-left: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #ecf0f1;
+  border: none;
+}
+#inline_list li a:hover {
+  color: #4e5758;
+  border-top: solid 1px xxx;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px #4e5758;
+  border-top: solid 4px xxx;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px #4e5758;
+}
+#inline_list li a:hover {
+  color: #1e2222;
+  border: none;
+}
+/*--------- Style start here --------*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+header {
+  background: url("../images/background/skyline_ny.jpg");
+  background-size: cover;
+  height: 500px;
+}
+header #topbar {
+  background: #ecf0f1;
+  padding: 10px;
+  color: #7f8c8d;
+  border-top: solid 1px xxx;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px #7f8c8d;
+  border-top: solid 4px xxx;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px #7f8c8d;
+  *zoom: 1;
+}
+header #topbar h2 {
+  display: inline;
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+  padding-top: 5px;
+  color: #4e5758;
+}
+header #topbar nav {
+  display: inline;
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+  float: right;
+}
+header #topbar nav ul {
+  margin: 0;
+  padding: 0;
+}
+header #topbar nav ul li {
+  display: inline-block;
+  width: 5rem;
+  margin: 10px;
+  text-align: center;
+}
+header #topbar nav ul li a {
+  text-decoration: none;
+  color: #7f8c8d;
+  padding-left: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+header #topbar nav ul li a:hover {
+  color: #4e5758;
+  border-top: solid 1px xxx;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px #4e5758;
+  border-top: solid 4px xxx;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px #4e5758;
+}
+header #topbar:before,
+header #topbar:after {
+  content: "";
+  display: table;
+}
+header #topbar:after {
+  clear: both;
+}
+header #banner {
+  color: #ecf0f1;
+  padding-top: 110px;
+}
+header #banner h1 {
+  font-size: 60px;
+  padding: 40px;
+  display: inline-block;
+  float: right;
+  text-align: right;
+  text-shadow: 2px 2px 2px #7f8c8d;
+  border-top: solid 1px xxx;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px #ecf0f1;
+  border-top: solid 4px xxx;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px #ecf0f1;
+}
+/* Services section */
+#work {
+  background: #ecf0f1;
+  text-align: center;
+  padding: 10px 50px;
+  border-top: solid 1px #7f8c8d;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px xxx;
+  border-top: solid 4px #7f8c8d;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px xxx;
+}
+#work .top {
+  padding-bottom: 60px;
+}
+#work .top h2 {
+  font-size: 48px;
+}
+#work .top p {
+  font-size: 24px;
+}
+#work .grid {
+  *zoom: 1;
+}
+#work .grid div {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+#work .grid div h4,
+#work .grid div h3 {
+  margin: 10px 0 0 0;
+}
+#work .grid div img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border-top: solid 1px #bdc3c7;
+  border-left: solid 1px xxx;
+  border-right: solid 1px #bdc3c7;
+  border-bottom: solid 1px #bdc3c7;
+  border-top: solid 4px #bdc3c7;
+  border-left: solid 4px xxx;
+  border-right: solid 4px #bdc3c7;
+  border-bottom: solid 4px #bdc3c7;
+}
+#work .grid div img:hover {
+  -webkit-box-shadow: -5px 5px 20px #7f8c8d;
+  -moz-box-shadow: -5px 5px 20px #7f8c8d;
+  box-shadow: -5px 5px 20px #7f8c8d;
+}
+#work .grid:before,
+#work .grid:after {
+  content: "";
+  display: table;
+}
+#work .grid:after {
+  clear: both;
+}
+/* Team section */
+#team {
+  text-align: center;
+  padding: 10px 50px;
+  border-top: solid 1px #7f8c8d;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px xxx;
+  border-top: solid 4px #7f8c8d;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px xxx;
+}
+#team .top {
+  padding-bottom: 60px;
+}
+#team .top h2 {
+  font-size: 48px;
+}
+#team .top p {
+  font-size: 24px;
+}
+#team .grid {
+  *zoom: 1;
+}
+#team .grid div {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+#team .grid div h4,
+#team .grid div h3 {
+  margin: 10px 0 0 0;
+}
+#team .grid div img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border-top: solid 1px #bdc3c7;
+  border-left: solid 1px xxx;
+  border-right: solid 1px #bdc3c7;
+  border-bottom: solid 1px #bdc3c7;
+  border-top: solid 4px #bdc3c7;
+  border-left: solid 4px xxx;
+  border-right: solid 4px #bdc3c7;
+  border-bottom: solid 4px #bdc3c7;
+}
+#team .grid div img:hover {
+  -webkit-box-shadow: -5px 5px 20px #7f8c8d;
+  -moz-box-shadow: -5px 5px 20px #7f8c8d;
+  box-shadow: -5px 5px 20px #7f8c8d;
+}
+#team .grid:before,
+#team .grid:after {
+  content: "";
+  display: table;
+}
+#team .grid:after {
+  clear: both;
+}
+/* Bottom section */
+#bottom {
+  text-align: center;
+  padding: 10px 50px;
+  border-top: solid 1px #7f8c8d;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px xxx;
+  border-top: solid 4px #7f8c8d;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px xxx;
+  text-align: left;
+  background: #7f8c8d;
+  color: #ecf0f1;
+  *zoom: 1;
+}
+#bottom .top {
+  padding-bottom: 60px;
+}
+#bottom .top h2 {
+  font-size: 48px;
+}
+#bottom .top p {
+  font-size: 24px;
+}
+#bottom .grid {
+  *zoom: 1;
+}
+#bottom .grid div {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+#bottom .grid div h4,
+#bottom .grid div h3 {
+  margin: 10px 0 0 0;
+}
+#bottom .grid div img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border-top: solid 1px #bdc3c7;
+  border-left: solid 1px xxx;
+  border-right: solid 1px #bdc3c7;
+  border-bottom: solid 1px #bdc3c7;
+  border-top: solid 4px #bdc3c7;
+  border-left: solid 4px xxx;
+  border-right: solid 4px #bdc3c7;
+  border-bottom: solid 4px #bdc3c7;
+}
+#bottom .grid div img:hover {
+  -webkit-box-shadow: -5px 5px 20px #7f8c8d;
+  -moz-box-shadow: -5px 5px 20px #7f8c8d;
+  box-shadow: -5px 5px 20px #7f8c8d;
+}
+#bottom .grid:before,
+#bottom .grid:after {
+  content: "";
+  display: table;
+}
+#bottom .grid:after {
+  clear: both;
+}
+#bottom #about {
+  display: inline;
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+}
+#bottom #about div {
+  display: block;
+  width: 500px;
+  margin: 0 -10px;
+  *zoom: 1;
+  padding-left: 0;
+}
+#bottom #about div:before,
+#bottom #about div:after {
+  content: "";
+  display: table;
+}
+#bottom #about div:after {
+  clear: both;
+}
+#bottom #about div p {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+  margin: 10px;
+  font-style: italic;
+}
+#bottom #about .inline {
+  font-size: 15px;
+  font-weight: 900;
+  padding-left: 0;
+}
+#bottom #about .inline li {
+  display: inline-block;
+  margin-top: 10px;
+}
+#bottom #about .inline li a {
+  text-decoration: none;
+  color: #7f8c8d;
+  padding-left: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #ecf0f1;
+  border: none;
+}
+#bottom #about .inline li a:hover {
+  color: #4e5758;
+  border-top: solid 1px xxx;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px #4e5758;
+  border-top: solid 4px xxx;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px #4e5758;
+}
+#bottom #about .inline li a:hover {
+  color: #1e2222;
+  border: none;
+}
+#bottom #contact {
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+#bottom #contact ul {
+  padding-left: 0;
+}
+#bottom #contact ul li {
+  margin: 10px 20px;
+  list-style-type: none;
+  margin-left: 0;
+}
+#bottom #contact .inline {
+  font-size: 15px;
+  font-weight: 900;
+  padding-left: 0;
+}
+#bottom #contact .inline li {
+  display: inline-block;
+  margin-top: 10px;
+}
+#bottom #contact .inline li a {
+  text-decoration: none;
+  color: #7f8c8d;
+  padding-left: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #ecf0f1;
+  border: none;
+}
+#bottom #contact .inline li a:hover {
+  color: #4e5758;
+  border-top: solid 1px xxx;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px #4e5758;
+  border-top: solid 4px xxx;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px #4e5758;
+}
+#bottom #contact .inline li a:hover {
+  color: #1e2222;
+  border: none;
+}
+#bottom #locations {
+  display: inline;
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+}
+#bottom #locations .inline {
+  font-size: 15px;
+  font-weight: 900;
+  padding-left: 0;
+}
+#bottom #locations .inline li {
+  display: inline-block;
+  margin-top: 10px;
+}
+#bottom #locations .inline li a {
+  text-decoration: none;
+  color: #7f8c8d;
+  padding-left: 0;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: #ecf0f1;
+  border: none;
+}
+#bottom #locations .inline li a:hover {
+  color: #4e5758;
+  border-top: solid 1px xxx;
+  border-left: solid 1px xxx;
+  border-right: solid 1px xxx;
+  border-bottom: solid 1px #4e5758;
+  border-top: solid 4px xxx;
+  border-left: solid 4px xxx;
+  border-right: solid 4px xxx;
+  border-bottom: solid 4px #4e5758;
+}
+#bottom #locations .inline li a:hover {
+  color: #1e2222;
+  border: none;
+}
+#bottom:before,
+#bottom:after {
+  content: "";
+  display: table;
+}
+#bottom:after {
+  clear: both;
+}
+/* Footer */

@@ -1,0 +1,87 @@
+/* 
+ * LESS Variables are defined with an @ character
+ * and can have different kinds of data types: 
+ *  color, string, boolean, multi-value
+ */
+.bordered {
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+}
+.commonRules {
+  padding: 15px;
+  margin: 0;
+  color: #eeeeee;
+  background: #333333;
+  text-align: right;
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+}
+body {
+  margin: 0;
+}
+/* Header */
+header h1 {
+  padding: 15px;
+  margin: 0;
+  color: #eeeeee;
+  background: #333333;
+  text-align: right;
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+}
+header h1:after {
+  content: " with LESS";
+}
+/* Navigation */
+nav {
+  background: #666666;
+}
+nav ul {
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 24px;
+  margin: 10px 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+/* Main Section*/
+.container {
+  margin: 10px;
+  padding: 25px;
+}
+.container p {
+  font-size: 24px;
+  text-align: justify;
+}
+.container p img {
+  -webkit-border-radius: 10px;
+  /* Chrome,Safari4+ */
+  -moz-border-radius: 10px;
+  /* FF3.6+ */
+  -o-border-radius: 10px;
+  /* Opera 11.10+ */
+  -ms-border-radius: 10px;
+  /* IE10+ */
+  border-radius: 10px;
+  float: left;
+  margin: 10px;
+}
+/* Footer */
+footer {
+  padding: 15px;
+  margin: 0;
+  color: #eeeeee;
+  background: #333333;
+  text-align: right;
+  border-top: 4px solid #000000;
+  border-bottom: 4px solid #000000;
+  padding: 0 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

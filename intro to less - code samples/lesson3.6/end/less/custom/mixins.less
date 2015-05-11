@@ -1,0 +1,128 @@
+//to be used wherever a reset is needed
+.reset {
+	margin: 0;
+	padding: 0;
+}
+
+//To be used for the main navigation and the footer
+.bar {
+	background: @light;
+	padding: @padding;
+	color: @asbestos;
+	.bordered(xxx, xxx, @asbestos, xxx);
+}
+
+//customized version of the built-in mixin - elements.less 
+//with a thicker width - 4px
+.bordered(@top-color: #EEE, @right-color: #EEE, @bottom-color: #EEE, @left-color: #EEE) {
+  border-top: solid 4px @top-color;
+  border-left: solid 4px @left-color;
+  border-right: solid 4px @right-color;
+  border-bottom: solid 4px @bottom-color;
+}
+
+//http://css-tricks.com/snippets/css/useful-css3-less-mixins/
+.text-shadow (@string: 2px 2px 2px @asbestos) {
+	text-shadow: @string;
+}
+
+
+//Namespace
+//set of rules for the main navigation
+#navigation {
+
+	.links() {
+	  text-decoration: none;
+	  color: @asbestos;
+	  padding-left: 0;
+	  .transition(.2s, ease-out); 
+
+	  	&:hover {
+	  		color: darken(@asbestos, 20%);
+	  		.bordered(xxx, xxx, darken(@asbestos, 20%), xxx);
+	  	}
+	}
+
+	.links_socials() {
+
+		.links();	
+	    color: @light;
+
+	  	&:hover {
+	  		color: darken(@asbestos, 40%);
+	  		border: none;
+	  	}
+	}
+}
+
+
+//Common set of rules for the page sections :
+//Services,  Team and Bottom sections
+
+#commonRules {
+	text-align:center;
+	padding: @padding @padding+40;
+	.bordered(@asbestos,xxx,xxx,xxx);
+
+	.top {
+		padding-bottom: @padding+50;
+			
+			h2 {
+				font-size: @fontSize*2;
+			}			
+
+			p {
+				font-size: @fontSize;
+			}
+	}
+
+	.grid {
+		
+		div {
+		 .column(4);	 
+
+		 h4, h3 {
+		  margin: @margin 0 0 0;
+		 }
+
+		 img {
+		 	.rounded(50%);
+		 	.bordered(@silver, @silver, @silver, xxx);
+	
+
+		 	&:hover {
+		 	  .box-shadow(-5px 5px 20px @asbestos);
+		 	}
+		 }
+		}
+		.clearfix();
+	}
+
+}
+
+
+//Additional mixins for the Bottom section
+.list {
+	margin: @margin @margin+10;
+	list-style-type: none;
+	margin-left: 0;	
+}
+
+#inline_list {
+		font-size: @fontSize/1.6;
+		font-weight: 900;
+	    padding-left: 0;
+
+		li {
+		display: inline-block; 
+		margin-top: @margin;
+
+		a {
+			#navigation > .links_socials();
+			border:none;
+		}
+	 }
+}
+
+
+

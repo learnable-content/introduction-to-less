@@ -1,0 +1,63 @@
+/* 
+ * LESS Variables are defined with an @ character
+ * and can have different kinds of data types: 
+ *  color, string, boolean, multi-value
+ */
+
+
+//color variables          
+@dark: black;             				// named color value
+@lightgrey: #eee;          				// hex code color 
+@mediumgrey: #666;						// hex code color 
+@darkgrey: #333;						// hex code color 
+@midnight_blue: #2c3e50;				// hex code color 
+@wisteria: #8e44ad;						// hex code color 
+@green_sea: #16a085;					// hex code color 
+@pomegranate: #c0392b;					// hex code color 
+
+
+
+//layout variables 
+@fontSize: 24px;          				//numeric value
+@padding: 15px;           				//numeric one-value 
+@margin: 10px;            				//numeric one-value 
+@border: 4px solid @dark; 				//multi-value variable
+
+@stringVar: " with LESS";				// string value 
+
+
+//Mixins
+.bordered {
+  border-top: @border;
+  border-bottom: @border;
+}
+
+
+
+
+body {
+  margin: 0;
+}
+
+/* Header */
+header {
+
+}
+
+
+/* Navigation */
+nav {
+ 
+}
+
+/* Main Section*/
+.container {
+
+}
+
+/* Footer */
+
+footer {
+
+}
+
