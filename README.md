@@ -1,4 +1,3 @@
-![](headers/1-1.jpg)
 # Introduction
 
 Hello and welcome to Introductions to Less course. My name is Sandy. I'm a front end developer based out of Toronto in Canada. In this tutorial I will teach you how to take your CSS to the next level and how to speed up your web development process using **Less**.
