@@ -12,30 +12,3 @@ Less is a CSS **pre-processor** language that allows you to extend your CSS by w
 This tutorial includes two hands-on projects. To build them we will have to convert the Less syntax into standard CSS using a Less pre-compiler. And so, as part of this tutorial I will make introductions to the Koala application which is a Less precompiler.
 
 So thank you for joining and let's get started!
-
-# Index for the Introduction To Less course#
-
-* [Lesson 1.1](https://github.com/learnable-content/Introduction_to_Less/tree/lesson1.1)
-* [Lesson 1.2](https://github.com/learnable-content/Introduction_to_Less/tree/lesson1.2)
-* [Lesson 2.1](https://github.com/learnable-content/Introduction_to_Less/tree/lesson2.1)
-* [Lesson 2.2](https://github.com/learnable-content/Introduction_to_Less/tree/lesson2.2)
-* [Lesson 2.3](https://github.com/learnable-content/Introduction_to_Less/tree/lesson2.3)
-* [Lesson 3.1](https://github.com/learnable-content/Introduction_to_Less/tree/lesson3.1)
-* [Lesson 3.2](https://github.com/learnable-content/Introduction_to_Less/tree/lesson3.2)
-* [Lesson 3.3](https://github.com/learnable-content/Introduction_to_Less/tree/lesson3.3)
-* [Lesson 3.4](https://github.com/learnable-content/Introduction_to_Less/tree/lesson3.4)
-* [Lesson 3.5](https://github.com/learnable-content/Introduction_to_Less/tree/lesson3.5)
-* [Lesson 3.6](https://github.com/learnable-content/Introduction_to_Less/tree/lesson3.6)
-* [Lesson 3.7](https://github.com/learnable-content/Introduction_to_Less/tree/lesson3.7)
-* [Lesson 3.8](https://github.com/learnable-content/Introduction_to_Less/tree/lesson3.8)
-* [Lesson 3.9](https://github.com/learnable-content/Introduction_to_Less/tree/lesson3.9)
-* [Lesson 4.1](https://github.com/learnable-content/Introduction_to_Less/tree/lesson4.1)
-* [Lesson 4.2](https://github.com/learnable-content/Introduction_to_Less/tree/lesson4.2)
-* [Lesson 4.3](https://github.com/learnable-content/Introduction_to_Less/tree/lesson4.3)
-* [Lesson 4.4](https://github.com/learnable-content/Introduction_to_Less/tree/lesson4.4)
-* [Lesson 4.5](https://github.com/learnable-content/Introduction_to_Less/tree/lesson4.5)
-* [Lesson 4.6](https://github.com/learnable-content/Introduction_to_Less/tree/lesson4.6)
-* [Lesson 4.7](https://github.com/learnable-content/Introduction_to_Less/tree/lesson4.7)
-* [Lesson 4.8](https://github.com/learnable-content/Introduction_to_Less/tree/lesson4.8)
-* [Lesson 4.9](https://github.com/learnable-content/Introduction_to_Less/tree/lesson4.9)
-* [Lesson 5.1](https://github.com/learnable-content/Introduction_to_Less/tree/lesson5.1)
