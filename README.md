@@ -11,7 +11,9 @@ Less is a CSS **pre-processor** language that allows you to extend your CSS by w
 
 This tutorial includes two hands-on projects. To build them we will have to convert the Less syntax into standard CSS using a Less pre-compiler. And so, as part of this tutorial I will make introductions to the Koala application which is a Less precompiler.
 
-So thank you for joining and let's get started!# Index for the Introduction To Less course
+So thank you for joining and let's get started!
+
+# Index for the Introduction To Less course#
 
 * [Lesson 1.1](https://github.com/learnable-content/Introduction_to_Less/tree/lesson1.1)
 * [Lesson 1.2](https://github.com/learnable-content/Introduction_to_Less/tree/lesson1.2)
