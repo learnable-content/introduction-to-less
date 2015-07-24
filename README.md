@@ -1,26 +1,69 @@
-# Index for the Introduction To Less course
+![](Introduction_to_Less/headers/3-3.jpg)
+# Introduction
 
-* [Lesson 1.1](Introduction_to_Less/lesson1.1.md)
-* [Lesson 1.2](Introduction_to_Less/lesson1.2.md)
-* [Lesson 2.1](Introduction_to_Less/lesson2.1.md)
-* [Lesson 2.2](Introduction_to_Less/lesson2.2.md)
-* [Lesson 2.3](Introduction_to_Less/lesson2.3.md)
-* [Lesson 3.1](Introduction_to_Less/lesson3.1.md)
-* [Lesson 3.2](Introduction_to_Less/lesson3.2.md)
-* [Lesson 3.3](Introduction_to_Less/lesson3.3.md)
-* [Lesson 3.4](Introduction_to_Less/lesson3.4.md)
-* [Lesson 3.5](Introduction_to_Less/lesson3.5.md)
-* [Lesson 3.6](Introduction_to_Less/lesson3.6.md)
-* [Lesson 3.7](Introduction_to_Less/lesson3.7.md)
-* [Lesson 3.8](Introduction_to_Less/lesson3.8.md)
-* [Lesson 3.9](Introduction_to_Less/lesson3.9.md)
-* [Lesson 4.1](Introduction_to_Less/lesson4.1.md)
-* [Lesson 4.2](Introduction_to_Less/lesson4.2.md)
-* [Lesson 4.3](Introduction_to_Less/lesson4.3.md)
-* [Lesson 4.4](Introduction_to_Less/lesson4.4.md)
-* [Lesson 4.5](Introduction_to_Less/lesson4.5.md)
-* [Lesson 4.6](Introduction_to_Less/lesson4.6.md)
-* [Lesson 4.7](Introduction_to_Less/lesson4.7.md)
-* [Lesson 4.8](Introduction_to_Less/lesson4.8.md)
-* [Lesson 4.9](Introduction_to_Less/lesson4.9.md)
-* [Lesson 5.1](Introduction_to_Less/lesson5.1.md)
+In this step we will discuss **nesting**. Nesting allows you to nest selectors within each other in order to keep the code clean and well organized.
+
+# Nesting in Less
+
+So as you remember the purpose of Less is to write less code and to keep the code DRY. But by looking at the code inside *style.css* looks like there is a lot of repetition and duplication of selectors. Luckily, with nesting, which is another great feature of Less, we can nest selectors within each other, following the same structure of the **DOM (document object model)**.
+
+Start with the `header`:
+
+```less
+header {
+	background:@darkgrey;
+
+	h1 {
+		color: @lightgrey;
+		padding: @padding;
+		margin: 0;
+	}
+}
+```
+
+Inside the `header` we're referencing `h1` by using nesting that allows us to keep the code clean and well organized. Check out the output in CSS: the Less compiler understood that the `h1` was part of the header. This way we didn't need to write the same selector two times.
+
+Now I want to pan some content next to the `h1`:
+
+```less
+header {
+	background:@darkgrey;
+
+	h1 {
+		color: @lightgrey;
+		padding: @padding;
+		margin: 0;
+
+		&:after {
+			content: @stringVar;
+		}
+	}
+}
+```
+
+For this I am using the combinator ampersand, followed by the pseudo class after. Using the ampersand combinator tells Less to concatenate one selector with the parent selector with no space in the middle. This is always useful when you want to use pseudo class like hover or focus. We're going to see more example of that later.
+
+Now let's look at the navigation section:
+
+```less
+nav {
+  background: @mediumgrey; 
+
+  ul {
+  	margin: 0;
+
+  	li {
+			display: inline-block;
+			font-size: @fontSize;
+			margin: @margin;
+
+			a {
+				text-decoration: none;
+				color: @lightgrey;
+			}
+		}
+  }
+}
+```
+
+Once again we are following the structure of the DOM of the HTML page. So it allows to keep things simple, and also to make inheritance clearer.
