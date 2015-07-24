@@ -1,26 +1,14 @@
-# Index for the Introduction To Less course
+![](Introduction_to_Less/headers/2-3.jpg)
+# Introduction
 
-* [Lesson 1.1](Introduction_to_Less/lesson1.1.md)
-* [Lesson 1.2](Introduction_to_Less/lesson1.2.md)
-* [Lesson 2.1](Introduction_to_Less/lesson2.1.md)
-* [Lesson 2.2](Introduction_to_Less/lesson2.2.md)
-* [Lesson 2.3](Introduction_to_Less/lesson2.3.md)
-* [Lesson 3.1](Introduction_to_Less/lesson3.1.md)
-* [Lesson 3.2](Introduction_to_Less/lesson3.2.md)
-* [Lesson 3.3](Introduction_to_Less/lesson3.3.md)
-* [Lesson 3.4](Introduction_to_Less/lesson3.4.md)
-* [Lesson 3.5](Introduction_to_Less/lesson3.5.md)
-* [Lesson 3.6](Introduction_to_Less/lesson3.6.md)
-* [Lesson 3.7](Introduction_to_Less/lesson3.7.md)
-* [Lesson 3.8](Introduction_to_Less/lesson3.8.md)
-* [Lesson 3.9](Introduction_to_Less/lesson3.9.md)
-* [Lesson 4.1](Introduction_to_Less/lesson4.1.md)
-* [Lesson 4.2](Introduction_to_Less/lesson4.2.md)
-* [Lesson 4.3](Introduction_to_Less/lesson4.3.md)
-* [Lesson 4.4](Introduction_to_Less/lesson4.4.md)
-* [Lesson 4.5](Introduction_to_Less/lesson4.5.md)
-* [Lesson 4.6](Introduction_to_Less/lesson4.6.md)
-* [Lesson 4.7](Introduction_to_Less/lesson4.7.md)
-* [Lesson 4.8](Introduction_to_Less/lesson4.8.md)
-* [Lesson 4.9](Introduction_to_Less/lesson4.9.md)
-* [Lesson 5.1](Introduction_to_Less/lesson5.1.md)
+There are two parts to any CSS pre-processor: the **language** and the **compiler**. The language itself is what you'll be writing, the Less syntax. The compiler is what turns the Less syntax into standard CSS, that the web browser can read and process.
+
+# Less Usages
+
+You have three alternatives:
+
+* Use Less on the client side by employing JavaScript compiler, Less.js.
+* Use Less on the server side by employing command line. That requires the presence of Node.js.
+* Use the GUIs for Less.
+
+We're going to see different examples on GUI later, as that's probably the easiest ways to get started and is perfectly suited for beginners. We're not going to cover the first two options as they are beyond the scope of this class. However, I'm still going to give you an overview so you can understand what are the different usage for Less.
