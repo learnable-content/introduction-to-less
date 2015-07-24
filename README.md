@@ -1,26 +1,33 @@
-# Index for the Introduction To Less course
+![](Introduction_to_Less/headers/4-7.jpg)
+# Code Refactoring
 
-* [Lesson 1.1](Introduction_to_Less/lesson1.1.md)
-* [Lesson 1.2](Introduction_to_Less/lesson1.2.md)
-* [Lesson 2.1](Introduction_to_Less/lesson2.1.md)
-* [Lesson 2.2](Introduction_to_Less/lesson2.2.md)
-* [Lesson 2.3](Introduction_to_Less/lesson2.3.md)
-* [Lesson 3.1](Introduction_to_Less/lesson3.1.md)
-* [Lesson 3.2](Introduction_to_Less/lesson3.2.md)
-* [Lesson 3.3](Introduction_to_Less/lesson3.3.md)
-* [Lesson 3.4](Introduction_to_Less/lesson3.4.md)
-* [Lesson 3.5](Introduction_to_Less/lesson3.5.md)
-* [Lesson 3.6](Introduction_to_Less/lesson3.6.md)
-* [Lesson 3.7](Introduction_to_Less/lesson3.7.md)
-* [Lesson 3.8](Introduction_to_Less/lesson3.8.md)
-* [Lesson 3.9](Introduction_to_Less/lesson3.9.md)
-* [Lesson 4.1](Introduction_to_Less/lesson4.1.md)
-* [Lesson 4.2](Introduction_to_Less/lesson4.2.md)
-* [Lesson 4.3](Introduction_to_Less/lesson4.3.md)
-* [Lesson 4.4](Introduction_to_Less/lesson4.4.md)
-* [Lesson 4.5](Introduction_to_Less/lesson4.5.md)
-* [Lesson 4.6](Introduction_to_Less/lesson4.6.md)
-* [Lesson 4.7](Introduction_to_Less/lesson4.7.md)
-* [Lesson 4.8](Introduction_to_Less/lesson4.8.md)
-* [Lesson 4.9](Introduction_to_Less/lesson4.9.md)
-* [Lesson 5.1](Introduction_to_Less/lesson5.1.md)
+In this step we will refactor and clean up our code.
+
+With Less you can keep the code DRY by writing less code and by not repeating yourself. However in the `bottom` section we're using multiple times the class `inline` with the namespace `inline_list`. That's too much, and this is against the principle of writing less code.
+
+First of all, remove all styling for the `inline` class from the `bottom`. Next define the following rule:
+
+```less
+#bottom {
+ 	div {
+ 	 	.inline {
+ 	  		#inline_list;
+ 	 	}
+ 	}
+}
+```
+
+This way we are reducing the amount of code duplication.
+
+Now the `h3`:
+
+```less
+#bottom {
+ 	h3 {
+		padding-bottom: @padding;
+	 	.bordered(xxx, xxx, @light, xxx);
+	}
+}
+```
+
+So now we have polished the design and also refactored and cleaned up the code.
