@@ -1,26 +1,48 @@
-# Index for the Introduction To Less course
+![](Introduction_to_Less/headers/4-5.jpg)
+# Introduction
 
-* [Lesson 1.1](Introduction_to_Less/lesson1.1.md)
-* [Lesson 1.2](Introduction_to_Less/lesson1.2.md)
-* [Lesson 2.1](Introduction_to_Less/lesson2.1.md)
-* [Lesson 2.2](Introduction_to_Less/lesson2.2.md)
-* [Lesson 2.3](Introduction_to_Less/lesson2.3.md)
-* [Lesson 3.1](Introduction_to_Less/lesson3.1.md)
-* [Lesson 3.2](Introduction_to_Less/lesson3.2.md)
-* [Lesson 3.3](Introduction_to_Less/lesson3.3.md)
-* [Lesson 3.4](Introduction_to_Less/lesson3.4.md)
-* [Lesson 3.5](Introduction_to_Less/lesson3.5.md)
-* [Lesson 3.6](Introduction_to_Less/lesson3.6.md)
-* [Lesson 3.7](Introduction_to_Less/lesson3.7.md)
-* [Lesson 3.8](Introduction_to_Less/lesson3.8.md)
-* [Lesson 3.9](Introduction_to_Less/lesson3.9.md)
-* [Lesson 4.1](Introduction_to_Less/lesson4.1.md)
-* [Lesson 4.2](Introduction_to_Less/lesson4.2.md)
-* [Lesson 4.3](Introduction_to_Less/lesson4.3.md)
-* [Lesson 4.4](Introduction_to_Less/lesson4.4.md)
-* [Lesson 4.5](Introduction_to_Less/lesson4.5.md)
-* [Lesson 4.6](Introduction_to_Less/lesson4.6.md)
-* [Lesson 4.7](Introduction_to_Less/lesson4.7.md)
-* [Lesson 4.8](Introduction_to_Less/lesson4.8.md)
-* [Lesson 4.9](Introduction_to_Less/lesson4.9.md)
-* [Lesson 5.1](Introduction_to_Less/lesson5.1.md)
+In this step we will continue speaking about namespacing, which is going to allow us to access a group of code by using the namespace `commonRules`. We will style the "Team" section now.
+
+# Styling Team section
+
+Everything is pretty straightforward here:
+
+```less
+#team {
+	#commonRules;
+}
+```
+
+We are employing `commonRules` again.
+
+Also replace placeholders with some real images in your layout:
+
+```html
+<div class='grid'>
+  <div>
+    <img src="images/team/ashley.png" width='250' height='250' alt='Ashley'>
+    <h3>Ashley McKnilley</h3>
+    <h4>Art Director</h4>
+  </div>
+
+  <div>
+    <img src="images/team/jenny.png" width='250' height='250' alt='Jenny'>
+    <h3>Jenny Thompson</h3>
+    <h4>Web Designer &amp; Developer</h4>
+  </div>
+
+  <div>
+    <img src="images/team/sarah.png" width='250' height='250' alt='Sarah'>
+    <h3>Sarah Crawford</h3>
+    <h4>SEO Specialist</h4>
+  </div>
+
+  <div>
+    <img src="images/team/walter.png" width='250' height='250' alt='Walter'>
+    <h3>Walter Miller</h3>
+    <h4>General Manager</h4>
+  </div>
+</div>
+```
+
+Observe the result in the browser!
