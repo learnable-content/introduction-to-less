@@ -1,4 +1,4 @@
-![](headers/4-2.jpg)
+![](Introduction_to_Less/headers/4-2.jpg)
 # What we'll be building
 
 Our template includes header, "Our Services" section, "Team" section and footer that includes contact information and locations.
