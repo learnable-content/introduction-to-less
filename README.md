@@ -1,26 +1,69 @@
-# Index for the Introduction To Less course
+![](Introduction_to_Less/headers/3-6.jpg)
+# Introduction
 
-* [Lesson 1.1](Introduction_to_Less/lesson1.1.md)
-* [Lesson 1.2](Introduction_to_Less/lesson1.2.md)
-* [Lesson 2.1](Introduction_to_Less/lesson2.1.md)
-* [Lesson 2.2](Introduction_to_Less/lesson2.2.md)
-* [Lesson 2.3](Introduction_to_Less/lesson2.3.md)
-* [Lesson 3.1](Introduction_to_Less/lesson3.1.md)
-* [Lesson 3.2](Introduction_to_Less/lesson3.2.md)
-* [Lesson 3.3](Introduction_to_Less/lesson3.3.md)
-* [Lesson 3.4](Introduction_to_Less/lesson3.4.md)
-* [Lesson 3.5](Introduction_to_Less/lesson3.5.md)
-* [Lesson 3.6](Introduction_to_Less/lesson3.6.md)
-* [Lesson 3.7](Introduction_to_Less/lesson3.7.md)
-* [Lesson 3.8](Introduction_to_Less/lesson3.8.md)
-* [Lesson 3.9](Introduction_to_Less/lesson3.9.md)
-* [Lesson 4.1](Introduction_to_Less/lesson4.1.md)
-* [Lesson 4.2](Introduction_to_Less/lesson4.2.md)
-* [Lesson 4.3](Introduction_to_Less/lesson4.3.md)
-* [Lesson 4.4](Introduction_to_Less/lesson4.4.md)
-* [Lesson 4.5](Introduction_to_Less/lesson4.5.md)
-* [Lesson 4.6](Introduction_to_Less/lesson4.6.md)
-* [Lesson 4.7](Introduction_to_Less/lesson4.7.md)
-* [Lesson 4.8](Introduction_to_Less/lesson4.8.md)
-* [Lesson 4.9](Introduction_to_Less/lesson4.9.md)
-* [Lesson 5.1](Introduction_to_Less/lesson5.1.md)
+With Less you can perform mathematical calculations directly in your stylesheet sby using the operators. So this is what we're going to discuss in this step.
+
+# Using Operator in Less
+
+What we're going to do is to add some margin for the links, around the content and the image.
+
+```less
+nav {
+  background: @mediumgrey; 
+  ul {
+  	margin: 0;
+  	li {
+			display: inline-block;
+			font-size: @fontSize;
+			margin: @margin @margin+20;
+
+			a {
+				text-decoration: none;
+				color: @lightgrey;
+			}
+		}
+  }
+}
+```
+
+This way I am increasing left and right margin by `20px` using `+` operator.
+
+Now add some padding for the container:
+
+```less
+.container {
+	margin: @margin;
+	padding: @padding+10;
+}
+```
+
+We increase padding for all the sides of this container by `10px`. Something to note is that we're not using any unit of measurement. Less by default uses pixels as a measurment value.
+
+```less
+.container {
+	margin: @margin;
+	padding: @padding+10;
+
+	p {
+		font-size: @fontSize;
+		text-align: justify;
+	}
+}
+```
+
+I am also styling the paragraph.
+
+Next the footer:
+
+```less
+footer {
+  .commonRules;
+  padding: 0 @padding+10;
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom:0;
+}
+```
+
+Go ahead and check that in the browser.
