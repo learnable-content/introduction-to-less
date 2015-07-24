@@ -1,4 +1,4 @@
-![](introduction-to-less/headers/1-2.jpg)
+![](Introduction_to_Less/headers/1-2.jpg)
 # What we'll learn
 
 Let's discuss what we are going to learn in this course.
