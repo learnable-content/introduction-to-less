@@ -1,26 +1,28 @@
-# Index for the Introduction To Less course
+![](Introduction_to_Less/headers/3-9.jpg)
+# Types of comments
 
-* [Lesson 1.1](Introduction_to_Less/lesson1.1.md)
-* [Lesson 1.2](Introduction_to_Less/lesson1.2.md)
-* [Lesson 2.1](Introduction_to_Less/lesson2.1.md)
-* [Lesson 2.2](Introduction_to_Less/lesson2.2.md)
-* [Lesson 2.3](Introduction_to_Less/lesson2.3.md)
-* [Lesson 3.1](Introduction_to_Less/lesson3.1.md)
-* [Lesson 3.2](Introduction_to_Less/lesson3.2.md)
-* [Lesson 3.3](Introduction_to_Less/lesson3.3.md)
-* [Lesson 3.4](Introduction_to_Less/lesson3.4.md)
-* [Lesson 3.5](Introduction_to_Less/lesson3.5.md)
-* [Lesson 3.6](Introduction_to_Less/lesson3.6.md)
-* [Lesson 3.7](Introduction_to_Less/lesson3.7.md)
-* [Lesson 3.8](Introduction_to_Less/lesson3.8.md)
-* [Lesson 3.9](Introduction_to_Less/lesson3.9.md)
-* [Lesson 4.1](Introduction_to_Less/lesson4.1.md)
-* [Lesson 4.2](Introduction_to_Less/lesson4.2.md)
-* [Lesson 4.3](Introduction_to_Less/lesson4.3.md)
-* [Lesson 4.4](Introduction_to_Less/lesson4.4.md)
-* [Lesson 4.5](Introduction_to_Less/lesson4.5.md)
-* [Lesson 4.6](Introduction_to_Less/lesson4.6.md)
-* [Lesson 4.7](Introduction_to_Less/lesson4.7.md)
-* [Lesson 4.8](Introduction_to_Less/lesson4.8.md)
-* [Lesson 4.9](Introduction_to_Less/lesson4.9.md)
-* [Lesson 5.1](Introduction_to_Less/lesson5.1.md)
+In this step we're going to talk about the **comments**.
+
+The first type of comment that you may have is an **inline** comment, that would fit on one line. You'd use the two forward slashes `// ...` followed by your comment in order to make it invisible.
+
+There is also the **block-style** comment, which is a multi-line comment, that yo uwould insert within forward slash and asterisk `/* ... */` in order to make it invisible.
+
+# Difference between inline and block style comment
+
+This first example, the block style comment with multiple lines, will be visible in the CSS file:
+
+```less
+/* 
+ * LESS Variables are defined with an @ character
+ * and can have different kinds of data types: 
+ *  color, string, boolean, multi-value
+ */
+```
+
+This one will be visible in the Less code, but not in the CSS file:
+
+```less
+//Less comment silent - invisible on CSS file
+```
+
+So, depending on the purpose of the comment, for example, in a collaborative situation, you can use either an inline or block-style comment. For example, if you want to provide with indications or instructions to other developers working on the Less code, you'd be using inline comments that would be invisible and silent in the CSS output. We can use block-style comment for the purpose of organizing the CSS output. They are going to be visible inside the CSS files.
