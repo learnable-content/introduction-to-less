@@ -1,26 +1,15 @@
-# Index for the Introduction To Less course
+![](Introduction_to_Less/headers/2-2.jpg)
+# Introduction
 
-* [Lesson 1.1](Introduction_to_Less/lesson1.1.md)
-* [Lesson 1.2](Introduction_to_Less/lesson1.2.md)
-* [Lesson 2.1](Introduction_to_Less/lesson2.1.md)
-* [Lesson 2.2](Introduction_to_Less/lesson2.2.md)
-* [Lesson 2.3](Introduction_to_Less/lesson2.3.md)
-* [Lesson 3.1](Introduction_to_Less/lesson3.1.md)
-* [Lesson 3.2](Introduction_to_Less/lesson3.2.md)
-* [Lesson 3.3](Introduction_to_Less/lesson3.3.md)
-* [Lesson 3.4](Introduction_to_Less/lesson3.4.md)
-* [Lesson 3.5](Introduction_to_Less/lesson3.5.md)
-* [Lesson 3.6](Introduction_to_Less/lesson3.6.md)
-* [Lesson 3.7](Introduction_to_Less/lesson3.7.md)
-* [Lesson 3.8](Introduction_to_Less/lesson3.8.md)
-* [Lesson 3.9](Introduction_to_Less/lesson3.9.md)
-* [Lesson 4.1](Introduction_to_Less/lesson4.1.md)
-* [Lesson 4.2](Introduction_to_Less/lesson4.2.md)
-* [Lesson 4.3](Introduction_to_Less/lesson4.3.md)
-* [Lesson 4.4](Introduction_to_Less/lesson4.4.md)
-* [Lesson 4.5](Introduction_to_Less/lesson4.5.md)
-* [Lesson 4.6](Introduction_to_Less/lesson4.6.md)
-* [Lesson 4.7](Introduction_to_Less/lesson4.7.md)
-* [Lesson 4.8](Introduction_to_Less/lesson4.8.md)
-* [Lesson 4.9](Introduction_to_Less/lesson4.9.md)
-* [Lesson 5.1](Introduction_to_Less/lesson5.1.md)
+In this part of the course, you will learn how to take your CSS to the next level with the power of Less, and why you should use Less over CSS.
+
+# What is Less?
+
+**Less** is a **pre-processor language**, a superset of CSS, that extends the standard CSS syntax. Less is also called dynamic stylesheet language, because it arranges CSS with many common features that you find available in the most modern dynamic programming languages. So Less looks like just CSS, except that it includes extra advanced features. For example:
+
+* **Variables** for faster maintenance like in other programming languages like JavaScript: you can define a variable, assign it a value and reuse it multiple times in your stylesheet.
+* **Nesting** for a cleaner structure of the stylesheet.
+* **Mixins** as well - using them you can declare a rule set as reusable objects in one place. That allows you to write object-oriented CSS.
+* **Operators** that allow you to do math directly in your stylesheet.
+ 
+Less allows you to cut down on code by writing reusable and less code. Your styling is better organized and easy to maintain as a result.
