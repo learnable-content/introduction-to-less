@@ -1,4 +1,4 @@
-![](headers/4-1.jpg)
+![](Introduction_to_Less/headers/4-1.jpg)
 # Project Overview
 
 Welcome to the fourth lesson of this tutorial. We're going to building together the final project. That's going to to be the opportunity for you to apply what you've learned and to discover more advanced Less features.
