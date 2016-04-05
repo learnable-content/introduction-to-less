@@ -1,4 +1,7 @@
 ![](Introduction_to_Less/headers/3-2.jpg)
+
+#Lesson Files
+You can find the lesson files for this lesson [here](https://github.com/learnable-content/introduction-to-less/tree/lesson1.1/intro%20to%20less%20-%20code%20samples)
 # Getting Started
 
 Now we are ready to get started and to work with the less features. In order for you to follow me you're going to need the course materials so download them if you haven't do it already. Inside you're going to find two folders, that corresponds to the two projects. Each of the folders is organized with separate folders that corresponds to specific video lesson. Each of them includes an end and start folder. This will allow you to follow the class and to complete the demonstrations from one specific section of the course.
