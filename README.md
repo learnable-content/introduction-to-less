@@ -1,4 +1,8 @@
 ![](Introduction_to_Less/headers/3-9.jpg)
+
+#Lesson Files
+You can find the lesson files for this lesson [here](https://github.com/learnable-content/introduction-to-less/tree/lesson1.1/intro%20to%20less%20-%20code%20samples/lesson2.9)
+
 # Types of comments
 
 In this step we're going to talk about the **comments**.
