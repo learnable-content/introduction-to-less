@@ -1,4 +1,9 @@
 ![](Introduction_to_Less/headers/4-6.jpg)
+
+#Lesson Files
+You can find the lesson files for this lesson [here](https://github.com/learnable-content/introduction-to-less/tree/lesson1.1/intro%20to%20less%20-%20code%20samples/lesson3.6)
+
+
 # Getting Started
 
 Now, it's time to customize the bottom section of the page. It includes the About, Contact and Location sections. We're going to be using similar CSS properties that we've been using for the previous sections and employ a multi-column layout.
