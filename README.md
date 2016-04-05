@@ -1,4 +1,8 @@
 ![](Introduction_to_Less/headers/3-7.jpg)
+
+#Lesson Files
+You can find the lesson files for this lesson [here](https://github.com/learnable-content/introduction-to-less/tree/lesson1.1/intro%20to%20less%20-%20code%20samples/lesson2.7)
+
 # Introduction
 
 In this step we're going to talk about built-in Less functions. With Less, it is possible to run functions in order to access existing information that we have on the page. So to put it more simply, what we're going to do is create new colors from existing colors that we have on the page.
