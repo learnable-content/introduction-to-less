@@ -1,4 +1,8 @@
 ![](Introduction_to_Less/headers/4-8.jpg)
+#Lesson Files
+You can find the lesson files for this lesson [here](https://github.com/learnable-content/introduction-to-less/tree/lesson1.1/intro%20to%20less%20-%20code%20samples/lesson3.8)
+
+
 # Introduction
 
 In this step I'm going to show you two external resources: Font Awesome and Google Fonts.
