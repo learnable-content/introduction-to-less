@@ -1,4 +1,8 @@
 ![](Introduction_to_Less/headers/4-5.jpg)
+
+#Lesson Files
+You can find the lesson files for this lesson [here](https://github.com/learnable-content/introduction-to-less/tree/lesson1.1/intro%20to%20less%20-%20code%20samples/lesson3.5)
+
 # Introduction
 
 In this step we will continue speaking about namespacing, which is going to allow us to access a group of code by using the namespace `commonRules`. We will style the "Team" section now.
