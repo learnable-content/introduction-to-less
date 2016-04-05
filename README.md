@@ -1,4 +1,7 @@
 ![](Introduction_to_Less/headers/3-5.jpg)
+
+#Lesson Files
+You can find the lesson files for this lesson [here](https://github.com/learnable-content/introduction-to-less/tree/lesson1.1/intro%20to%20less%20-%20code%20samples/lesson2.5)
 # Getting Started
 
 At this step we are going to discuss **parametrized mixins**.
