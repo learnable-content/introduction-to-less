@@ -1,4 +1,6 @@
 ![](Introduction_to_Less/headers/3-1.jpg)
+#Lesson Files
+You can find the lesson files for this lesson [here](https://github.com/learnable-content/introduction-to-less/tree/lesson1.1/intro%20to%20less%20-%20code%20samples/lesson2.2)
 # Introduction
 
 In this step I will show you how to download and install the Koala application - a Less compiler that we're going to be using to compile the Less code into standard CSS.
@@ -23,3 +25,5 @@ You can click on this row in order to expand the sidebar on the right. There is 
 
 * **Auto compile** is checked by default. This is going to allow it to compile the less code into standard CSS every time you save your file.
 * **Output styles**. There is normal and compress.
+* 
+
